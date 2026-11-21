@@ -1,14 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tintero Studio</title>
+    <title>Tintero Studios | Contenido Audiovisual, Sonido y Narrativa</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Tipografías modernas de Google Fonts para contraste editorial y técnico -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Tintero Studio
+
+    <!-- Efecto visual de grano cinematográfico en toda la pantalla -->
+    <div class="film-grain"></div>
+
+    <!-- Barra de navegación minimalista -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="ink-dot"></span> TINTERO<span class="thin">STUDIOS</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#manifiesto">Dirección</a></li>
+                <li><a href="#servicios">Especialidades</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Portada Principal) -->
+    <section class="hero">
+        <!-- Mancha de tinta orgánica animada en el fondo -->
+        <div class="ink-blob"></div>
         
-    </h1>
+        <div class="hero-content">
+            <div class="rec-badge">
+                <span class="rec-dot"></span> REC • JESUAN MORA • TINTERO STUDIOS
+            </div>
+            <h1>El sonido también <span class="highlight">cuenta historias</span>.</h1>
+            <p>Creador de contenido audiovisual, editor de video y audio, productor de audio y director de <strong>Tintero Studios</strong>. Transformamos ideas en experiencias sonoras y visuales para videojuegos, podcasts, publicidad y proyectos digitales.</p>
+            <div class="hero-buttons">
+                <a href="#servicios" class="btn btn-primary">Ver Especialidades</a>
+                <a href="mailto:tinterostudios@gmail.com?subject=Consulta%20de%20Proyecto%20-%20Tintero%20Studios" class="btn btn-secondary">Escribir a Gmail</a>
+            </div>
+        </div>
+
+        <!-- Elemento visual didáctico: Visor de cámara (Viewfinder) en CSS puro -->
+        <div class="viewfinder">
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-left"></div>
+            <div class="corner bottom-right"></div>
+            <div class="crosshair">+</div>
+            <div class="camera-specs">
+                <span>FL STUDIO • AUDIO & VIDEO</span>
+                <span>3+ AÑOS EXP</span>
+                <span>STEREO 48kHz</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cinta infinita (Marquee) en CSS puro -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <span>CONTENIDO AUDIOVISUAL</span> • 
+            <span>DISEÑO SONORO</span> • 
+            <span>AUDIO PARA VIDEOJUEGOS</span> • 
+            <span>PRODUCCIÓN DE PODCASTS</span> • 
+            <span>PUBLICIDAD & FL STUDIO</span> • 
+            <span>CONTENIDO AUDIOVISUAL</span> • 
+            <span>DISEÑO SONORO</span> • 
+            <span>AUDIO PARA VIDEOJUEGOS</span> • 
+            <span>PRODUCCIÓN DE PODCASTS</span> • 
+            <span>PUBLICIDAD & FL STUDIO</span> • 
+        </div>
+    </div>
+
+    <!-- Sección Manifiesto / Dirección y Trayectoria -->
+    <section id="manifiesto" class="manifesto">
+        <div class="container">
+            <span class="section-tag">01 / DIRECCIÓN & VISIÓN</span>
+            <h2>Intención, personalidad e identidad <br><span class="text-outline">en cada frecuencia.</span></h2>
+            <p class="manifesto-text">
+                Durante <strong>3 años de experiencia en el mundo del audio</strong>, el trabajo de <strong>Jesuan Mora</strong> como Director de <strong>Tintero Studios</strong> se ha desarrollado alrededor de la producción, edición, mezcla y diseño sonoro, buscando que cada proyecto encuentre una identidad que pueda escucharse y reconocerse. Con formación como <strong>Técnico Profesional en Artes de la Universidad Nacional</strong> y estudios de mezcla y producción de audio en <strong>Udemy</strong>, conectamos la sensibilidad artística con los procesos técnicos de producción usando <strong>FL Studio</strong> como una de nuestras herramientas principales. En Tintero Studios creemos que un buen sonido no solo debe escucharse bien: debe tener intención, personalidad e identidad.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección Servicios con tarjetas interactivas -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <span class="section-tag">02 / ÁREAS DE ESPECIALIZACIÓN</span>
+            <h2>Nuestras Especialidades</h2>
+
+            <div class="services-grid">
+                <!-- Tarjeta 1: Video y Contenido Audiovisual -->
+                <article class="service-card">
+                    <div class="card-header">
+                        <span class="service-num">01</span>
+                        <!-- Animación didáctica: Lente de cámara -->
+                        <div class="didactic-icon lens-icon">
+                            <div class="lens-ring"></div>
+                        </div>
+                    </div>
+                    <h3>Contenido Audiovisual & Publicidad</h3>
+                    <p>Creación, edición y dirección audiovisual para marcas, campañas publicitarias y proyectos digitales con identidad propia.</p>
+                    <ul class="service-tags">
+                        <li>Edición de Video</li>
+                        <li>Publicidad</li>
+                        <li>Proyectos Digitales</li>
+                    </ul>
+                </article>
+
+                <!-- Tarjeta 2: Audio, Mezcla y Diseño Sonoro -->
+                <article class="service-card">
+                    <div class="card-header">
+                        <span class="service-num">02</span>
+                        <!-- Animación didáctica: Ecualizador de ondas sonoras -->
+                        <div class="didactic-icon equalizer-icon">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <h3>Producción, Mezcla & Diseño Sonoro</h3>
+                    <p>Producción y edición profesional de audio, mezcla y tratamiento de sonido con intención narrativa y carácter.</p>
+                    <ul class="service-tags">
+                        <li>Diseño Sonoro</li>
+                        <li>Mezcla & Tratamiento</li>
+                        <li>FL Studio</li>
+                    </ul>
+                </article>
+
+                <!-- Tarjeta 3: Videojuegos y Podcasts -->
+                <article class="service-card">
+                    <div class="card-header">
+                        <span class="service-num">03</span>
+                        <!-- Animación didáctica: Línea de tiempo de edición (Timeline) -->
+                        <div class="didactic-icon timeline-icon">
+                            <div class="playhead"></div>
+                        </div>
+                    </div>
+                    <h3>Audio para Videojuegos & Podcasts</h3>
+                    <p>Experiencias sonoras inmersivas diseñadas para mundos interactivos, narrativas seriadas y podcasts con identidad.</p>
+                    <ul class="service-tags">
+                        <li>Audio para Videojuegos</li>
+                        <li>Producción de Podcasts</li>
+                        <li>Edición de Audio</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proceso Didáctico (Flujo de trabajo sin JS) -->
+    <section id="proceso" class="process">
+        <div class="container">
+            <span class="section-tag">03 / METODOLOGÍA</span>
+            <h2>Del Borrador a la Pantalla</h2>
+            <p class="subtitle">Pasa el cursor sobre cada etapa para inspeccionar nuestro flujo de trabajo.</p>
+
+            <div class="timeline-steps">
+                <div class="step">
+                    <div class="step-marker">I</div>
+                    <div class="step-content">
+                        <h4>El Tintero (Conceptualización)</h4>
+                        <p>Definimos el mensaje, el tono emocional, el guion y la propuesta estética antes de empezar a crear.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-marker">II</div>
+                    <div class="step-content">
+                        <h4>La Captura (Producción)</h4>
+                        <p>Ejecución de audio con equipo especializado, cuidando el guion propuesto por el cliente juntos con las ideas de nuestro equipo.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-marker">III</div>
+                    <div class="step-content">
+                        <h4>El Revelado (Postproducción)</h4>
+                        <p>Ensamblaje narrativo, diseño sonoro inmersivo y gradación de color para entregar piezas listas para impactar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto Exclusiva (Gmail + WhatsApp) -->
+    <section id="contacto" class="contact">
+        <div class="container contact-box">
+            <span class="section-tag">04 / CONEXIÓN DIRECTA</span>
+            <h2>¿Listo para darle vida a tu próxima pieza?</h2>
+            <p>Sin formularios interminables ni intermediarios. Escríbenos directamente a nuestro correo o inicia una conversación rápida por WhatsApp.</p>
+            
+            <div class="contact-actions">
+                <!-- Enlace directo a Gmail / Cliente de correo con asunto predefinido -->
+                <a href="mailto:tinterostudios@gmail.com?subject=Nuevo%20Proyecto%20-%20Tintero%20Studios&body=Hola%20Jesuan%20/%20Tintero%20Studios,%20me%20gustar%C3%ADa%20conversar%20sobre%20un%20proyecto:" class="gmail-card">
+                    <div class="gmail-icon">✉</div>
+                    <div class="gmail-info">
+                        <span class="label">CORREO OFICIAL (GMAIL)</span>
+                        <span class="email-address">tinterostudios@gmail.com</span>
+                    </div>
+                    <span class="arrow">↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Minimalista -->
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 TINTERO STUDIOS — Dirigido por Jesuan Mora.</p>
+            <p class="footer-note">Hecho con sonido, imagen y código puro.</p>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp con animación de pulso -->
+    <a href="https://wa.me/573195884169?text=Hola%20Tintero%20Studios,%20vengo%20de%20su%20p%C3%A1gina%20web%20y%20me%20interesa%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <span class="whatsapp-tooltip">¿Hablamos por WhatsApp?</span>
+        <svg viewBox="0 0 32 32" class="whatsapp-svg">
+            <path d="M16 2.667c-7.36 0-13.333 5.973-13.333 13.333 0 2.347.613 4.64 1.773 6.667l-1.88 6.867 7.027-1.84c1.96 1.067 4.173 1.64 6.413 1.64 7.36 0 13.333-5.973 13.333-13.333s-5.973-13.334-13.333-13.334zm7.76 18.826c-.32.907-1.867 1.733-2.587 1.84-.667.107-1.507.147-2.427-.147-.56-.173-1.28-.413-2.2-.813-3.88-1.68-6.413-5.587-6.6-5.84-.187-.253-1.573-2.093-1.573-3.987s.987-2.827 1.347-3.213c.347-.387.76-.48 1.013-.48.253 0 .507.013.733.013.24 0 .547-.093.853.653.32.76 1.08 2.64 1.173 2.827.093.187.16.413.027.667-.133.253-.2.413-.387.64-.187.227-.4.507-.573.68-.187.187-.387.387-.16.76.227.387.987 1.627 2.12 2.64 1.453 1.293 2.68 1.693 3.067 1.88.387.187.613.16.84-.093.227-.253.96-1.12 1.213-1.507.253-.387.507-.32.853-.187.347.133 2.213 1.04 2.587 1.227.387.187.64.28.733.44.093.16.093.92-.227 1.827z"/>
+        </svg>
+    </a>
+
 </body>
 </html>
